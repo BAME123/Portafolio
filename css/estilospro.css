@@ -1,0 +1,280 @@
+#titulo {
+
+text-align: start ;
+color: rgb(184, 0, 201);
+position: relative;
+top:31px;
+left: 8%;
+font-size: 35PX ;
+}
+#ocultar_hamburguesa{
+    text-align: center;
+    padding-bottom:-7px;
+}
+
+#ocultar_hamburguesa li{
+    list-style-type: none;
+    font-size: 19px;  
+    margin-right: 5%;
+    
+    
+}
+#ocultar_hamburguesa a{
+
+    text-decoration: none;
+    color: rgb(244, 244, 244);
+   
+}
+
+#boton_hamburgesa{
+
+    display: none;
+
+    }
+    .listas li{
+        display: inline;  /*  para ponerlas así ----- horizontal */
+        margin-right: 75px;
+        font-size: 30px;
+    }
+    
+    @media (max-width:576px) {
+        .listas li{
+
+    display: block;
+    text-align:start;
+    margin-bottom: 20px;
+    font-size: 19px;
+    }    
+    .visible{
+        display: block;
+
+    }
+
+    #ocultar_hamburguesa{
+
+        display: none;
+
+    }
+    #boton_hamburgesa {
+    background: none; /* Sin fondo */
+    border: none;     /* Sin borde */
+    padding: 0;      /* Sin padding */
+    display: flex;    /* Usar flexbox para alinear las líneas */
+    flex-direction: column; /* Alinear las líneas verticalmente */
+    justify-content: space-around; /* Espacio entre las líneas */
+    height: 30px;    /* Altura total del botón */
+    margin-left:10px;
+    margin-top: 10px;
+    }
+
+    .line {
+        width: 30px;     /* Ancho de las líneas */
+        height: 3px;     /* Altura de las líneas */
+        background-color: rgb(172, 171, 171); /* Color de las líneas */
+    }
+
+    #titulo{
+        position: relative;
+        top:8%;
+        margin-left:-5%;
+    }
+
+    }
+
+    /* Estilos para pantallas de 576px a 800px */
+    @media (min-width: 576px) and (max-width: 950px) {
+     .listas li {
+    display: inline; /* Cambia a vertical para este rango */
+    margin-right: 21px;
+    font-size: 20px; /* Ajusta el tamaño de fuente si es necesario */
+    
+    .listas{
+        display: inline;
+    }
+}
+
+}
+/* Estilos para pantallas de 576px a 800px */
+    @media (min-width: 951px) and (max-width: 1280px) {
+    .listas li {
+    display: inline; /* Cambia a vertical para este rango */
+    margin-right: 37px;
+    font-size: 25px; /* Ajusta el tamaño de fuente si es necesario */
+}
+
+.listas{
+    display: inline;
+}
+}
+
+nav img{
+    margin-right: 2rem;
+    width: 3rem;
+    position: relative;
+    left: 17rem;
+    padding-left:5px;
+     
+}
+nav{
+    background-color: black;
+    padding-bottom: 0.5rem;
+
+}
+
+
+
+/**TERMINAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA ACA EL NAVVVVVVVVVVVVVVVVVVV/
+
+/* CARRUSEL*/
+
+
+#carouselExample{  /*PARA SEPARAR EL DIV DEL CARRUSEL CON EL NAV*/
+    margin-top: 7rem;
+
+}
+.carrusel_fotos img{
+
+height: 150px; width: 150px;
+
+
+}
+.carrusel_fotos {
+
+    margin-left: 16.5rem;
+    
+    }
+
+.carrusel_fotos li{
+
+    display: inline-block;
+
+}
+/*TARJETAS*/
+
+.trajeCarrusel{/*SEPARAR DEL CARRUSEL*/
+
+   margin-left:5.9rem;
+
+
+}
+h1{
+
+    text-align: center;
+    margin-top:5%;
+    margin-bottom: -1%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+
+}
+.row{
+
+    margin-top: 20PX;
+
+
+}
+#tarjetas{
+    padding-left: 30px;
+    padding-right: 5px;
+
+
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: black; /* Cambia el color a negro */
+    border-radius: 50%;      /* Hace que el ícono sea circular */
+    padding: 10px;           /* Agrega un poco de espacio alrededor del ícono */
+}
+
+/* Opcional: Cambiar el color al pasar el mouse */
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+    background-color: rgb(184, 0, 201);   /* Cambia el color a rojo cuando pasas el ratón */
+}
+
+
+/*PERFILESSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS*/
+
+.alinear-perfiles {
+    max-width: 37rem;
+    margin-left:70px; 
+    margin-top: 50px;
+    padding: 2rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .alinear-perfiles p{
+
+    margin-top:30%;
+
+  }
+  
+  @media (max-width: 576px) {  /* HAMBURGEUSAAAAAAAAAAAAAAAAAAAAAAAAAAAA*/
+   
+  
+    .alinear-perfiles {
+      max-width: 100%;
+        margin-left: 0;   
+        margin-right: 3px;  
+        padding: 10px;  
+          
+    }.posi-imagenes-redes{
+           max-width: 100%;
+            margin-left:15px;
+
+    }.posi-imagenes-redes  img.imagen-red-social {
+        max-width: 100%;  /* Ajusta el tamaño máximo de la imagen */
+        height: auto;     /* Mantiene la relación de aspecto */
+        margin-left: 5px;
+    }
+
+    
+  }
+  .alinear-perfiles:hover {
+    transform: scale(1.05) translateY(-5px);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+    background-color: rgb(251, 245, 251);
+  }
+  .color-perfiles{
+
+    background-color: white;
+    padding-bottom: 25px;
+
+  }
+  .color-perfiles h2{
+
+    font-family:'Inter', sans-serif;
+    font-weight: 700; /*INTER BOND PARA LOS TITULOS*/
+    font-size: 1.2rem;
+    margin-bottom:-21%;
+
+  }
+
+    .imagen-red-social{ /*Acomoda la imagen de la red social y response*/
+        width: 20%;
+        margin-left: 27px;
+        height: auto;
+        max-width: 100%;  /*Hace que la imagen sea responsiva y nunca exceda el ancho del contenedor en el que está.*/
+        
+    }
+    .imagen-red-social:hover{
+
+        width: 17%;
+
+    }
+
+   .posi-imagenes-redes{
+
+    margin-right:13%;
+    margin-top: 10%;
+
+   }
+   
+   /*CODIGO HAMBURGESAAAAAAAAAAAAAAAAAAAAAAAAAAA*/
+
+   a:hover .imagen-red-social {
+    fill: fuchsia; /* Cambia este valor por el color que desees */
+  }
+  
+  
+  
