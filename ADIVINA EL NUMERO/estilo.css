@@ -1,0 +1,77 @@
+body {
+    background-color: #f0f0f0;
+    font-family: 'Arial', sans-serif;
+}
+
+#contenido {
+    display: flex;            
+    flex-direction: column;  
+    align-items: center;     
+    justify-content: center;  
+    height: 100vh;           
+}
+
+h {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+table {
+    margin-top: 20px;
+}
+
+table td button {
+    width: 7rem;
+    height: 7rem;
+    font-size: 3rem;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button.numero {
+    background-color: #4CAF50; 
+    color: white;
+}
+
+button.ope {
+    background-color: #FF5722; 
+    color: white;
+}
+
+button:hover {
+    background-color: #3e8e41; 
+    color: white;
+}
+
+button.ope:hover {
+    background-color: #E64A19; 
+}
+
+#res {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #333;
+    background-color: #e7f3fe;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #b3d7ff;
+    text-align: center;
+}
+
+footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #ddd;
+}
+
+footer .nav-link {
+    color: #007bff;
+}
+
+footer .nav-link:hover {
+    color: #0056b3;
+}
