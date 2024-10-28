@@ -1,36 +1,4 @@
-    function cambiarColorRedes() {
-        const imafacebook = document.querySelectorAll('.facebook');
-        const imagtwitter = document.querySelectorAll('.twitter');
-        const imaginstagram = document.querySelectorAll('.instagram');
-
-        
-
-        imagtwitter.forEach(element=>{
-           
-            element.addEventListener('mouseover',()=>{
-                element.src='img/twittwernaranja.jpg'
-            })
-           element.addEventListener('mouseout',()=>{
-            element.src='img/logo-instar.jpg.png'
-
-           }) 
-
-        })
-
-        imaginstagram.forEach(element=>{
-            
-            element.addEventListener('mouseover', ()=>{
-                element.src='img/insta-naranja.jpg'
-
-            })
-            element.addEventListener('mouseout',()=>{
-                element.src="img/logo-ins.jpg.png";
-
-            })
-            
-        }) 
-    }
-
+    
     cambiarColorRedes();
 // HAMBURGESAAAAAAAAAAAAAAAAAAAAAAAAAA
 const boton_hamburgesa = document.getElementById('boton_hamburgesa');
